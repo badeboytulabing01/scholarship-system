@@ -1,0 +1,479 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400&family=Montserrat:wght@200&display=swap');
+
+body{
+font-family: 'Antonio', sans-serif;
+}
+#homepage{
+	background-image: url("../img/main_img/homebg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#header{
+    font-size: 30px;
+    color:black;
+    background-color: white;
+}
+#header a{
+	font-size: 20px;
+}
+#header img{
+	width: 90px;
+	height: 90px;	
+}
+
+#header #loginBtn a{
+    margin-left: 84%;
+    border-radius: 10px;	
+}
+/*end header*/
+
+#studentLogin #logo img{
+  width: 50px;
+  margin-left: 10%;
+ font-family: 'Antonio', sans-serif;
+}
+#studentLogin input{
+	width: 300px;
+	font-weight: bold;
+	border: none;
+	background-color: #EFEBEB;
+}
+
+#studentLogin #background{
+	width: 330px;
+	background-color: #EFEBEB;
+	color: #A5A2A2;
+}
+#studentLogin button{
+	background-color: #E9AD31;
+	width: 120px;
+	height: 40px;
+}
+#studentLogin #cvsulogo img{
+	margin-left: 30%;
+}
+#imagelogo img{
+	height: 100vh;
+}
+#rem input{
+   width: 15px;
+}
+#forgot a{
+	text-decoration: none;
+	
+}
+/*end of studentlogin*/
+
+#mainpage p{
+	font-size: 35px;
+}
+#program #box{
+	background-image: url("../img/main_img/whitebg.png");
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+#program .announcement {
+	width: 575px;
+}
+/*end of main page*/
+#application input{
+	background-color: rgb(11, 118, 54);;
+	color: #FFF;
+}
+#application select{
+	background-color: rgb(11, 118, 54);;
+	color: #FFF;
+}
+#application #blank
+{
+	border-top: 5px solid #0B7636;
+}
+
+
+#application #signature img
+{
+	margin-left: 20%;
+}
+
+#application #dates p{
+	margin-top: 20%;
+}
+#application #profileimage img{
+	border: 5px solid #0B7636;
+	width: 120px;
+}
+#application #dates label{
+	border-top: 5px solid #0B7636;
+	width: 200px;
+}
+
+#application h3{
+  background-color: #E9AD31;
+  color: #fff;
+  font-size: 30px;
+  height: 40px;
+
+}
+
+#application h5{
+  color: #0B7636;
+
+}
+#application h1{
+  color: #0B7636;
+
+}
+#application label{
+  font-weight: bold;
+  color: #0B7636;
+
+}
+#application ::placeholder{
+	color: #FFF;
+}
+
+#application #uploadRequire input{
+	width: 100px;
+	height: 100px;
+	border:none;
+	background: transparent;
+
+}
+#application  #fatherInfo{
+	border-right: 4px solid #0B7636;
+}
+ #application .imgUp
+{
+  margin-bottom:15px;
+}
+ #application .del
+{
+  position:absolute;
+  top:0px;
+  right:15px;
+  width:30px;
+  height:30px;
+  text-align:center;
+  line-height:30px;
+  background-color:rgba(255,255,255,0.6);
+  cursor:pointer;
+}
+
+#application #uploadRequire{
+	background-color: #E9AD31;
+	width: 150px;
+	height: 120px;
+}
+
+#application #signature input{
+	border: none;
+	border-bottom: #0B7636 2px solid;
+	width: 250px;
+}
+
+#application #submitbtn{
+  background-color: #B30000;
+  color: white;
+  width: 150px;
+}
+
+
+#application #submitbtn{
+  background-color: #B30000;
+  color: white;
+  width: 150px;
+}
+
+#application #cancel{
+	width: 150px;
+	margin-left: 44%;
+}
+
+
+
+#application #needrequirements #general{
+
+	background-color: #E9AD31;
+	color: black;
+	font-weight: 500; 
+
+}
+/*end oof application*/
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:black;	
+}
+
+#adminusers input{
+	border: none;
+	background: transparent;
+
+}
+
+
+#adminusers input::placeholder{
+	color: #FFFFFF;
+
+}
+
+#adminusers .form-group {
+	background: #0B7636;
+}
+
+#adminusers table th{
+	background: #E9AD31;
+}
+
+#adminusers table tbody td{
+	background: #0B7636;
+	color: #fff;
+}
+#adminusers  .warning{
+	background: #0B7636;
+}
+
+#adminusers #addUser input{
+	background: #0B7636;
+	color: #fff;
+	text-transform: ;
+}
+
+#adminusers #addUser label{
+	color: #0B7636;
+	font-weight: bold;
+}
+#adminusers #addUser h5{
+	color: #0B7636;
+	font-weight: bold;
+}
+#adminusers #addUser input::placeholder{
+	text-transform: uppercase;
+}
+/*end admin*/
+/*start alert.php*/
+#header #alert{
+	border-radius: 10%;
+	font-size: 20px;
+	margin-top: 100px;
+	color:#ffffff;
+}
+#header #btnok{
+	width: 100px;
+}
+/*end of alert.php*/
+/*start of scholarship management*/
+#full_scholar{
+	border: 20px solid red;
+}
+#full_scholar input{
+	border: 5px solid purple;
+}
+#semi-scholar {
+ 	border: 20px solid red;
+}
+#semi-scholar input{
+ 	border: 5px solid purple;
+}
+/*Start of Scholarship management design*/
+#scholarship_design #full_criteria{
+	border: 20px solid #0B7636;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+}
+#scholarship_design #full_criteria textarea{
+	height: 50vh;
+}
+
+#scholarship_design #semi_criteria{
+	border: 20px solid #0B7636;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+}
+#scholarship_design #semi_criteria textarea{
+	height: 50vh;
+}
+#scholarship_design #edit_annoucement{
+	border: 20px solid #0B7636;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+#scholarship_design #edit_annoucement textarea{
+	height: 400px;
+
+}
+/*end of scholarship management*/
+
+#communication #email_add select{
+	width: 500px;
+	border: none;
+	background-color: #0B7636;
+	color: #FFFFFF;
+} 
+
+#communication label{
+	color: #FFFFFF;
+} 
+
+
+
+#communication #send_email textarea{
+	width: 850px;
+	height: 200px;
+	background-color: #0B7636;
+	border: none;
+	color: #fff;
+} 
+
+
+#communication  button{
+	margin-left: 26%;
+	background-color: #E9AD31;
+	width: 150px;
+	font-weight: bold;
+	color: #fff;
+} 
+
+/*end of communication*/
+#financial #proccess{
+	background-color: #3CA65C;
+    width: 350px;
+}
+
+#financial #proccess h3{
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+
+#financial #proccess label{
+	font-size: 10px;
+	
+
+}
+
+
+#financial #proccess input{
+	height: 30px;
+	
+}
+
+
+#financial #proccess button{
+background-color: #E9AD31;
+font-weight: bold;
+border-radius: 27%;	
+}
+
+#succesfuly_paid{
+background-color: #3CA65C;
+text-align: center;
+border-radius: 5%;
+}
+
+#succesfuly_paid h3{
+font-weight: bold;
+}
+
+#succesfuly_paid a{
+background-color: #E9AD31;
+font-weight: bold;
+font-size: 20px;
+width: 150px;	
+}
+/*end of successfuly paid*/
+  #c_account
+ {
+  background-color: #fff; 
+ }
+
+  #c_account input
+ {
+width: 200px;
+ }
+ #c_account .imagePreview 
+ {
+    width: 100%;
+    height: 180px;
+    background-position: center center;
+    background:url(../img/icon/user.png);
+    border-radius: 50%; 
+    background-color:#fff;
+    background-size: cover;
+   background-repeat:no-repeat;
+    display: inline-block;
+   box-shadow:0px -3px 6px 2px rgba(0,0,0,0.2);
+}
+ #c_account .btn-primary
+{
+  display:block;
+  border-radius:0px;
+  box-shadow:0px 4px 6px 2px rgba(0,0,0,0.2);
+  margin-top:-5px;
+}
+ #c_account .imgUp
+{
+  margin-bottom:15px;
+}
+ #c_account .del
+{
+  position:absolute;
+  top:0px;
+  right:15px;
+  width:30px;
+  height:30px;
+  text-align:center;
+  line-height:30px;
+  background-color:rgba(255,255,255,0.6);
+  cursor:pointer;
+}
+ #c_account .imgAdd
+{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background-color:#4bd7ef;
+  color:#fff;
+  box-shadow:0px 0px 2px 1px rgba(0,0,0,0.2);
+  text-align:center;
+  line-height:30px;
+  margin-top:0px;
+  cursor:pointer;
+  font-size:15px;
+}
+/*Start of css in submit requirement nav*/
+#subrequirement img{
+   margin-left: 3px;
+}
+#subrequirement1 {
+	margin-left: 5px;
+}
+/*end of sub requirements*/
+
+#forgot_pass #background{
+	background-image: url("../img/icon/forgot_back.png");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#forgot_pass {
+	background-image: url("../img/main_img/homebg.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}

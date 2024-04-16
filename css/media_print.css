@@ -1,0 +1,21 @@
+@media print {
+         
+         @page {
+        margin-top: 0;
+        margin-bottom: 0;
+        }
+
+        
+         #print{
+         	font-family: arial;
+         }
+
+         #print #headers{
+         	margin-left: 20%;
+         }
+        #print  #flex{
+         	display: flex;
+         }
+
+
+   }
